@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+.container ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    list-style: none;
+    z-index: 100;
+}
+
+.container:hover ul {
+    display: block;
+}
+
+.container ul li {
+    display: block;
+    margin: 5px 0;
+}
+
+.container ul li a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.container ul li a:hover {
+    background-color: #f0f0f0;
+    color: #007bff;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#datos-personales {
+    background-color: #ffc107; 
+}
+
+#biografia {
+    background-color: #28a745; 
+}
+
+#experiencia-laboral {
+    background-color: #007bff; 
+}
+
+#educacion {
+    background-color: #dc3545; 
+}
+
+#habilidades {
+    background-color: #17a2b8; 
+}
+
+#idiomas {
+    background-color: #6c757d;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+section p {
+    margin-bottom: 15px;
+    color: #333; 
+}
